@@ -4,8 +4,10 @@ import Home from './pages/Home/Home'
 import Login from './pages/Login'
 import Register from "./pages/Register"
 
+
 const App = () => {
   return (
+    
     <BrowserRouter> 
      <Routes>
     

@@ -1,11 +1,22 @@
 import React from 'react'
-import Sidebars from '../components/Sidebars'
+import BodyComponent from '../components/Body/BodyComponent'
+import HeaderComponent from '../components/HeaderComponent'
+
+import "./Home.css"
 
 const home = () => {
   return (
-    <div>
-      <Sidebars/>
+    <div className='HomeContainer'>
 
+    
+    
+      <HeaderComponent/>
+     
+      <BodyComponent/>
+        
+     
+     
+  
     </div>
   )
 }

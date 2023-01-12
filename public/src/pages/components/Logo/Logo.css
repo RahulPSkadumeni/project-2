@@ -1,0 +1,11 @@
+.logo{
+    width: 75px;
+  
+}
+
+.Logo{
+    font-size: 24;
+    margin-left: 20px;
+    color:white;
+    cursor: pointer;
+}
