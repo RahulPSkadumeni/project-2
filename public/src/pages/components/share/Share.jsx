@@ -5,13 +5,15 @@ const share = () => {
   return (
     <div className="Share">
         <div className="shareWrapeer">
-            <div className="ShareTop">
+            <div className="shareTop">
              
-                <img className='ShareProfilePicture' src="/assets/person/1.jpeg"  alt="" srcSet="assets/person/1.jpeg" />
-                <input placeholder='whats in Your mind Rahul?' className='ShareInput'/>
+            <img className="shareProfileImg" src="https://helostatus.com/wp-content/uploads/2021/08/profile-pictures-for-WhatsApp.jpg" alt="profilepic" />
+                <input placeholder='whats in Your mind Rahul?..' className='ShareInput'/>
             </div>
+
+
             <hr className="shareHr"/>
-            <div className="ShareBottom"></div>
+            <div className="shareBottom">
             <div className="shareOptions">
                 <div className="shareOption">
                     <PermMedia htmlColor="tomato" className="shareIcon"/>
@@ -28,9 +30,11 @@ const share = () => {
                 <div className="shareOption">
                     <EmojiEmotions htmlColor="goldenrod" className="shareIcon"/>
                     <span className="shareOptionText">Feelings</span>
-                </div>
+                </div> 
             </div>
             <button className="shareButton">Share</button>
+        </div>
+            
         </div>
 
 

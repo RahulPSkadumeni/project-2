@@ -1,31 +1,50 @@
-.share {
+.Share {
     width: 100%;
-    height: 170px;
-    border-radius: 10px;
+    height: 150px;
+    background-image: linear-gradient(
+        320deg,
+        hsl(285deg 55% 31%) 0%,
+        hsl(275deg 48% 31%) 10%,
+        hsl(265deg 41% 31%) 20%,
+        hsl(254deg 35% 30%) 30%,
+        hsl(244deg 30% 30%) 40%,
+        hsl(234deg 25% 30%) 50%,
+        hsl(249deg 29% 35%) 60%,
+        hsl(265deg 34% 40%) 70%,
+        hsl(280deg 39% 44%) 80%,
+        hsl(296deg 45% 48%) 90%,
+        hsl(311deg 54% 51%) 100%
+      );
+    border-radius: 30px;
     -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
     box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
   }
   
-  .shareWrapper {
-    padding: 10px;
+  
+   .shareWrapeer {
+    padding: 20px;
   }
   
   .shareTop {
     display: flex;
+
     align-items: center;
   }
   
   .shareProfileImg {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     object-fit: cover;
     margin-right: 10px;
   }
   
-  .shareInput {
+  .ShareInput {
+    justify-content: center;
     border: none;
-    width: 80%;
+    width: 85%;
+    height: 40px;
+    border-radius:20px;
   }
   
   .shareInput:focus {
@@ -73,4 +92,4 @@
       margin-right: 20px;
       cursor: pointer;
       color: white;
-  }
+  } 
