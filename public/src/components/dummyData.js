@@ -2,52 +2,52 @@ export const Users = [
     {
       id:1,
       profilePicture: "assets/person/1.jpeg",
-      username: "Safak Kocaoglu",
+      username: "Sanajay Shaji",
     },
     {
       id:2,
       profilePicture: "assets/person/2.jpeg",
-      username: "Janell Shrum",
+      username: "Amal amal",
     },
     {
       id:3,
       profilePicture: "assets/person/3.jpeg",
-      username: "Alex Durden",
+      username: "Yadhu Balakrishna",
     },
     {
       id:4,
       profilePicture: "assets/person/4.jpeg",
-      username: "Dora Hawks",
+      username: "Jithu George",
     },
     {
       id:5,
       profilePicture: "assets/person/5.jpeg",
-      username: "Thomas Holden",
+      username: "Anas A",
     },
     {
       id:6,
       profilePicture: "assets/person/6.jpeg",
-      username: "Shirley Beauchamp",
+      username: "Alwin Alwin",
     },
     {
       id:7,
       profilePicture: "assets/person/7.jpeg",
-      username: "Travis Bennett",
+      username: "Akhil P",
     },
     {
       id:8,
       profilePicture: "assets/person/8.jpeg",
-      username: "Kristen Thomas",
+      username: "Jijo Thomas",
     },
     {
       id:9,
       profilePicture: "assets/person/9.jpeg",
-      username: "Gary Duty",
+      username: "Abc Bcd",
     },
     {
       id:10,
       profilePicture: "assets/person/10.jpeg",
-      username: "Safak Kocaoglu",
+      username: "Rahul P S",
     },
   ];
   
@@ -88,7 +88,7 @@ export const Users = [
     },
     {
       id: 5,
-      photo: "assets/post/5.jpeg",
+      photo: "./assets/post/5.jpeg",
       date: "5 hours ago",
       userId: 5,
       like: 23,

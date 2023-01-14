@@ -29,7 +29,7 @@
 }
 
 .topbarCenter{
-    flex: 5;
+    flex: 6;
     display: flex;
     align-self: center;
     /* background-color: red; */

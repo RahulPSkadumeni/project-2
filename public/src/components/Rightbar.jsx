@@ -1,78 +1,98 @@
 import React from 'react'
 import FriendsCard from './friendsCard/FriendsCard'
+import FriendsList from './friendslist/FriendsList'
 import FriendsRequestCard from './friendsRequestCard/FriendsRequestCard'
+import Profile from './ProfileCard/Profile'
 import "./Rightbar.css"
+
+const HomeRightBar=()=>{
+  return(
+    <>
+       <h4 className="rightbarTitle">Online Friends</h4>
+
+        
+       
+<FriendsCard className="rightbarFriendList" />
+
+<h4 className="rightbarTitle"> Friends Request</h4>
+
+<FriendsRequestCard className="rightbarFriendList" />
+    </>
+  )
+}
+ const ProfileRightBar=({Profile})=>{
+  return(
+
+    // "rigthBarFriend"> 
+    //   <div className="rightbar"></div>
+
+    <div>
+    <h1 className='RIghtbarTitle'>User Information Title   </h1>
+    <div className='Rightbarinfo'>
+      <div className="rightbarInfoItem">
+        <span className="rightbarInfokey">City:</span>
+        <span className="rightbarInfoValue">Ernakulam:</span>
+          
+          </div>
+
+          <div className="rightbarInfoItem">
+        <span className="rightbarInfokey">From:</span>
+        <span className="rightbarInfoValue">Kannur</span>
+          
+          </div>
+
+          <div className="rightbarInfoItem">
+        <span className="rightbarInfokey">Relationship:</span>
+        <span className="rightbarInfoValue">Single</span>
+        </div> 
+          </div>
+
+        <h4>User Friends</h4>
+        <FriendsList/>
+       
+        
+          
+
+    </div>
+  ) 
+ }
+
 const Rightbar = () => {
   return (
     <div className='rightbar'>
-        <div className="birthdayContainer">
-        <img className="birthdayImg" src="assets/gift.png" alt="" />
+        {/* <div className="birthdayContainer">
+        <img className="birthdayImg" src="../../assets/gift.png" alt="" />
           <span className="birthdayText">
           <b>Amal </b> and <b>3 other friends</b> have a birhday today. </span>
 
          
           
-        </div>
-        <h4 className="rightbarTitle">Online Friends</h4>
+        </div> */}
 
-        {/* <ul className="rightbarFriendList">
-          
-        
-        
-        <li className="rigthBarFriend">
-          <div className="rightBarProfileImageContainer">
-            <img  className='rightbarprofileImage' src="https://wallpapers.com/images/featured-full/cool-profile-pictures-4co57dtwk64fb7lv.jpg" alt="" />
-            <span className='rigbtbarOnline'></span>
-            
-          </div>
-          <div className='rigthBarFriendCardData'>
 
-          <span className='rigbtbarUsername'> Yadhu Yadhu</span>
-
-          <span className='lastSeen' >45 min ago</span>
-          </div>
-        </li>
+        <Profile/>
+        <ProfileRightBar />
+      
+        {/* <h4 className="rightbarTitle">Online Friends</h4>
 
         
-        <li className="rigthBarFriend">
-          <div className="rightBarProfileImageContainer">
-            <img  className='rightbarprofileImage' src="https://wallpapers.com/images/featured-full/cool-profile-pictures-4co57dtwk64fb7lv.jpg" alt="" />
-            <span className='rigbtbarOnline'></span>
-            
-          </div>
-          <div className='rigthBarFriendCardData'>
-
-          <span className='rigbtbarUsername'> Yadhu Yadhu</span>
-
-          <span className='lastSeen' >45 min ago</span>
-          </div>
-        </li>
-
-
-
-        <li className="rigthBarFriend">
-          <div className="rightBarProfileImageContainer">
-            <img  className='rightbarprofileImage' src="https://wallpapers.com/images/featured-full/cool-profile-pictures-4co57dtwk64fb7lv.jpg" alt="" />
-            <span className='rigbtbarOnline'></span>
-            
-          </div>
-          <div className='rigthBarFriendCardData'>
-
-          <span className='rigbtbarUsername'> Yadhu Yadhu</span>
-
-          <span className='lastSeen' >45 min ago</span>
-          </div>
-        </li>
-
-        </ul> */}
+       
         <FriendsCard className="rightbarFriendList" />
 
         <h4 className="rightbarTitle"> Friends Request</h4>
 
-<FriendsRequestCard className="rightbarFriendList" />
+        <FriendsRequestCard className="rightbarFriendList" /> */}
        </div>
 
   )
 }
 
 export default Rightbar
+
+import React from 'react'
+
+export default function Rightbar({Profile}) {
+  return (
+    <div>Rightbar</div>
+  )
+}

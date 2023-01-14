@@ -59,4 +59,4 @@ const FriendsCard = () => {
   )
 }
 
-export default FriendsCard
+export default FriendsCard 

@@ -1,7 +1,8 @@
-.rightbar{
+.rightbar{ 
+    padding-left: 20px;
     flex:3.5;
     color: #f4f4f4;
-    /* background-color: blueviolet; */
+    background-color: #231E39; 
     margin-left: 20px;
     }
     .rightbar {
@@ -13,7 +14,7 @@
     }
     
     .birthdayContainer {
-        background-color:#4A436E;
+        background-color:#231E39;
         border-radius: 10px;
       display: flex;
       align-items: center;
@@ -41,11 +42,15 @@
         margin-bottom: 20px;
     }
     .rigthBarFriend{
+      
+        margin-left: 20px;
         display: flex;
+        
         align-items: center;
         margin-bottom: 15px;
-        background-color: #4A436E;
-        border-radius: 10px;
+        background-color: #231E39;
+        border-radius: 15px;
+        box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
         height: 70px;
         
     
@@ -60,6 +65,7 @@
         height: 45px;
         border-radius: 50%;
         object-fit:cover
+        
     
     }
     .rigbtbarOnline{
@@ -74,11 +80,13 @@
     .rightbarFriendList {
       padding: 0;
       margin: 0;
+      width: 350px;
+	max-width: 100%;
       list-style: none;
     }
     .lastSeen{
         padding-right: 15px;
-    font-size: 12px;
+    font-size: 20px;
     color: #f4f4f468;
     }
     .rigthBarFriendCardData{
@@ -89,6 +97,7 @@
         flex: 8;
         font-weight: 500;
         padding-right: 5px;
+        justify-items: right;
     }
     .rightbarTitle{
       font-size: 18px;
@@ -111,9 +120,9 @@
     .rightbarInfoKey{
       font-weight: 500;
       margin-right: 15px;
-      color: #555;
+      color: rgb(171, 56, 56);
     }
-    
+     
     .rightbarInfoValue{
       font-weight: 300;
     }
@@ -144,6 +153,22 @@
         justify-content: space-between;
     
     }
-    .Deletebutton{
-        color: rgb(23, 21, 21) !;
+  
+
+    .confirmButton{
+      
+      background-color: green;
+      align-items: center;
+      padding: 3px;
+      margin: 2px;
+      border-radius: 5px;
+    }
+    .DeleteButton{
+      background-color: rgb(189, 46, 46);
+      padding: 3px;
+      margin: 2px;
+      border-radius: 5px;
+
+
+      
     }

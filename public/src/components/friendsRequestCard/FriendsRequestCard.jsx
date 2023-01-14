@@ -3,7 +3,7 @@ import "./FriendsRequestCard.css"
 import { Button } from '@mui/material'
 
 const FriendsCard = () => {
-  return (
+  return ( 
     <div>
          <ul className="rightbarFriendList">
           
@@ -17,9 +17,9 @@ const FriendsCard = () => {
             </div>
             <div className='rigthBarFriendCardData'>
   
-            <span className='rigbtbarUsername'> Yadhu Yadhu  <button variant="contained" type="submit">Confirm</button> </span> 
+            <span className='rigbtbarUsername'> Yadhu Yadhu  <button className='confirmButton'>Confirm</button> <button className='DeleteButton'>Delete</button> </span> 
   
-            <span className='lastSeen' >45 min ago</span> 
+            <span className='lastSeen' ></span> 
             </div>
           </li>
   
