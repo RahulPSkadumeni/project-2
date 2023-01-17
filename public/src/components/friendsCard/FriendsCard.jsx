@@ -10,7 +10,7 @@ const FriendsCard = () => {
         
           <li className="rigthBarFriend">
             <div className="rightBarProfileImageContainer">
-              <img  className='rightbarprofileImage' src="https://wallpapers.com/images/featured-full/cool-profile-pictures-4co57dtwk64fb7lv.jpg" alt="" />
+              <img  className='rightbarprofileImage' src="/images/person/1.jpeg" alt="" />
               <span className='rigbtbarOnline'></span>
               
             </div>

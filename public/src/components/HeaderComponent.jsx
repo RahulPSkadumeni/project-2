@@ -1,8 +1,10 @@
 import React from 'react'
 import Logo from './Logo/Logo'
 import "./HeaderComponent.css"
-
- import {SettingsSharp} from "@mui/icons-material"
+import { FaSearch } from "react-icons/fa";
+import { IoSettingsSharp,IoNotificationsSharp,IoLogOutSharp} from "react-icons/io5";
+import { BsChatRight } from "react-icons/bs";
+import { AiOutlineLogout } from "react-icons/ai";
 // import {ChatBubbleOutlineSharp} from '@mui/icons-material';
 // import {NotificationAddSharp} from "@mui/icons-material"
 // import {LogoutSharp} from "@mui/icons-material"
@@ -15,7 +17,8 @@ const HeaderComponent = () => {
     </div>    
 <div className='topbarCenter'>
     <div className='searchbar'>
-    {/* <Search className='searchIcon'/> */}
+     
+    {/* <Search className='searchIcon'/> */}<FaSearch  className='searchIcon'/>
     <input type="text"  placeholder='Search for post,friends, any videos...' className="searchInput" />
 </div>
 </div>
@@ -29,19 +32,19 @@ const HeaderComponent = () => {
             </ul> */}
              <div className="topbarIcons">
           <div className="topbarIconItem">
-            {/* <SettingsSharp /> */}
+            {/* <SettingsSharp /> */} <IoSettingsSharp size={"1.3rem"}/>
             <span className="topbarIconBadge">1</span>
           </div>
           <div className="topbarIconItem">
-            {/* <ChatBubbleOutlineSharp /> */}
+            <BsChatRight />
             <span className="topbarIconBadge">2</span>
           </div>
           <div className="topbarIconItem">
-            {/* <NotificationAddSharp /> */}
+            <IoNotificationsSharp />
             <span className="topbarIconBadge">1</span>
           </div>
           <div className="topbarIconItem">
-            {/* <LogoutSharp /> */}
+             <AiOutlineLogout  /> 
             <span className=""></span>
           </div>
         </div>

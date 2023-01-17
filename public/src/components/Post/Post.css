@@ -86,3 +86,15 @@
     border-bottom: 1px dashed gray;
     font-size: 15px;
 }
+
+.notifications{
+
+    display: grid;
+    margin: 10px;
+}
+
+.time{
+    padding-top: 10px;
+    font-size: 15px;
+    color: rgb(167, 166, 166);
+}

@@ -9,6 +9,7 @@ const ProfileBodyComponent = () => {
   return (
     <div className='profilepage'>
         <Sidebar/>
+        
         <UserProfile/>
     
        

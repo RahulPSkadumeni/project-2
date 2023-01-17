@@ -3,6 +3,7 @@ import Feed from '../../components/Feed'
 import HeaderComponent from '../../components/HeaderComponent'
 import ProfileComponent from '../../components/ProfileComponent'
 import Rightbar from '../../components/Rightbar'
+
 import Sidebar from '../../components/Sidebar'
 
 
@@ -38,7 +39,7 @@ const Profilepage = () => {
           </div>
         <div className="profileRightBottom">
       <Feed/>
-      <Rightbar />
+      <Rightbar profile />
         </div>
 
        </div>

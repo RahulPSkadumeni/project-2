@@ -20,13 +20,15 @@ const Post = ({post}) => {
                 <div className="postTopRight"></div>
             </div>
             <div className="postCenter">
-            <span className="postText">{post.desc} </span>
-            <img src="https://media.cnn.com/api/v1/images/stellar/prod/elden-ring.jpg?c=16x9&q=h_720,w_1280,c_fill" alt="" />
+            <span className="postText">After just a single round of Player Unknown's Battlegrounds Mobile, I was hooked.
+             The game runs well and feels authentic. 
+             It even has that delicious tension that I love from the PC version of the… </span>
+            <img src="https://i0.wp.com/ramenswag.com/wp-content/uploads/2018/12/101-PlayerUnknown_s-Battlegrounds-HD-Wallpapers-_-Background-Images-...-1.jpg?resize=1024%2C576&ssl=1" alt="" />
             </div>
             <div className="postBottom">
                <div className="postBottomLeft">
-              <img className="likeIcon" src="/assets/like.png" alt="" />
-              <img className="likeIcon" src="/assets/heart.png" alt="" />
+              <img className="likeIcon" src="https://www.clipartmax.com/png/small/218-2189156_red-heart-emoji-icon-vector-symbol-instagram-heart-icon-png.png" alt="" />
+              <img className="likeIcon" src="https://www.clipartmax.com/png/small/98-986734_top-masonic-blogs-comment-png.png" alt="" />
               <span className="postLikeCounter">{post.like} people like it</span>
               <span className="postacommentText"> {post.comment} comments</span>
               </div>

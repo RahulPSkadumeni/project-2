@@ -1,5 +1,10 @@
 .logo{
-    width: 75px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    width: 170px;
+    justify-content: center;
+    align-items: center;
+   
   
 }
 

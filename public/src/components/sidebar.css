@@ -1,7 +1,7 @@
 .sideBar{
     padding-top: 5px;
     padding-left: 5px;
-    flex:3;
+    flex:2;
 color: #f6f6f6;
     background-color:#4A436E;
     
@@ -35,11 +35,13 @@ color: #f6f6f6;
         background-color: hwb(0 100% 0%);
         color: #4A436E;
         border-radius: 5px;
+        margin-right: 5px;
     }
     .SidebarListItem{
-
+        display: flex; 
         align-items: center;
         margin-bottom: 20px;
+        
     }
 
     .sidebarList {

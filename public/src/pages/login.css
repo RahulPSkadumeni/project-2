@@ -5,6 +5,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: linear-gradient(
+        60deg,
+        hsl(239deg 53% 43%) 0%,
+        hsl(258deg 70% 40%) 34%,
+        hsl(275deg 82% 38%) 77%,
+        hsl(291deg 90% 38%) 100%
+      );
+
+
   }
   
   .loginWrapper {
@@ -24,7 +33,7 @@
   .loginLogo {
     font-size: 50px;
     font-weight: 800;
-    color: #1775ee;
+    color: #b517ee;
     margin-bottom: 10px;
   }
   
@@ -58,7 +67,7 @@
       height: 50px;
       border-radius: 10px;
       border: none;
-      background-color: #1775ee;
+      background-color: #ce17ee;
       color: white;
       font-size: 20px;
       font-weight: 500;

@@ -2,7 +2,7 @@ import React from 'react'
 import "./FriendsRequestCard.css"
 import { Button } from '@mui/material'
 
-const FriendsCard = () => {
+const FriendsRequestCard = () => {
   return ( 
     <div>
          <ul className="rightbarFriendList">
@@ -18,12 +18,11 @@ const FriendsCard = () => {
             <div className='rigthBarFriendCardData'>
   
             <span className='rigbtbarUsername'> Yadhu Yadhu  <button className='confirmButton'>Confirm</button> <button className='DeleteButton'>Delete</button> </span> 
-  
+            
             <span className='lastSeen' ></span> 
             </div>
           </li>
   
-          
           <li className="rigthBarFriend">
             <div className="rightBarProfileImageContainer">
               <img  className='rightbarprofileImage' src="https://wallpapers.com/images/featured-full/cool-profile-pictures-4co57dtwk64fb7lv.jpg" alt="" />
@@ -32,27 +31,16 @@ const FriendsCard = () => {
             </div>
             <div className='rigthBarFriendCardData'>
   
-            <span className='rigbtbarUsername'> Yadhu Yadhu</span>
-  
-            <span className='lastSeen' >45 min ago</span>
+            <span className='rigbtbarUsername'> Anas Anas A A<button className='confirmButton'>Confirm</button> <button className='DeleteButton'>Delete</button> </span> 
+            
+            <span className='lastSeen' ></span> 
             </div>
           </li>
   
+         
   
   
-          <li className="rigthBarFriend">
-            <div className="rightBarProfileImageContainer">
-              <img  className='rightbarprofileImage' src="https://wallpapers.com/images/featured-full/cool-profile-pictures-4co57dtwk64fb7lv.jpg" alt="" />
-              <span className='rigbtbarOnline'></span>
-              
-            </div>
-            <div className='rigthBarFriendCardData'>
   
-            <span className='rigbtbarUsername'> Yadhu Yadhu</span>
-  
-            <span className='lastSeen' >45 min ago</span>
-            </div>
-          </li>
   
           </ul>
           
@@ -60,4 +48,4 @@ const FriendsCard = () => {
   )
 }
 
-export default FriendsCard
+export default FriendsRequestCard

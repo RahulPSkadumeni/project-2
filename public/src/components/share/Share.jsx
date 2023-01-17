@@ -9,7 +9,7 @@ const share = () => {
             <div className="shareTop">
              
             <img className="shareProfileImg" src="https://helostatus.com/wp-content/uploads/2021/08/profile-pictures-for-WhatsApp.jpg" alt="profilepic" />
-                <input placeholder='whats in Your mind Rahul?..' className='ShareInput'/>
+                <input placeholder='Create New Post'className='ShareInput'/>
             </div>
 
 
